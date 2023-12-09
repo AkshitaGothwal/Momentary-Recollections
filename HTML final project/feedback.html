@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentary Recollections</title>
+    <!-- Adding style sheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Shortcut icon -->
+    <link rel="shortcut icon" href="images/mr2.png" type="image/x-icon" />
+<body>
+    <!-- Header -->
+    <header>
+        <!-- h1 tag -->
+        <h1>Momentary Recollections</h1>
+        <!-- Navigation -->
+        <nav>
+            <!-- Unordered listing -->
+            <ul>
+                <!-- Anchor tags -->
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="promotiondetails.html">Promotion</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="corporateinform.html">Corporate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main content -->
+    <main>
+        <!-- section tag -->
+    <section id="feedback">
+      <h2>Customer Feedback</h2>
+
+      <!-- Existing comments -->
+      <article>
+        <h3>John Doe</h3>
+        <p>
+          "I absolutely love my Polaroid camera! The instant prints bring back
+          the joy of capturing moments without waiting."
+        </p>
+      </article>
+
+      <article>
+        <h3>Jane Smith</h3>
+        <p>
+          "The Polaroid camera is not just a device; it's a memory maker. The
+          simplicity of use and the charm of instant photos make it my go-to
+          choice."
+        </p>
+      </article>
+
+      <!-- Feedback form -->
+      <section>
+        <h3>Leave Your Feedback</h3>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br/><br/>
+
+          <label for="feedback">Your Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="4" required></textarea><br/><br/>
+
+          <button type="submit" id="sendButton">Submit Feedback</button>
+        </form>
+      </section>
+    </section>
+  </main>
+<!-- Footer -->
+  <footer>
+    <p><small>&copy; 2023 Momentary Recollections. All rights reserved.</small></p>
+  </footer>
+</body>
+<!-- Attaching javascript file -->
+<script src="js/feedback.js"></script>
+</html>
